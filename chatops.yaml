@@ -6,10 +6,7 @@ repo: https://github.com/zbal/hubot-chatops
 paths:
     - scripts/devo.ps.coffee
 commands:
-    - test bot hearing - Tests `robot.hear` method
-    - hubot test response - Tests `robot.respond` method
-    - hubot test http - Tests `robot.http()` method
-    - hubot test envar - Tests environment variable was set
-    - hubot test dependencies - Tests dependencies are available
+    - deploy|update myanmar staging - trigger deploy of the staging platform via devo.ps
+    - reset|erase myanmar staging - trigger erase of the staging platform via devo.ps
 dependencies:
     - underscore: '1.7.0'
