@@ -1,9 +1,6 @@
 # Description:
 #   Devo.ps integration
 #
-# Dependencies:
-#   "underscore": "1.7.0"
-#
 # Commands:
 #   deploy|update myanmar staging - trigger deploy of the staging platform via devo.ps
 #   reset|erase myanmar staging - trigger erase of the staging platform via devo.ps
@@ -11,8 +8,6 @@
 # Author:
 #   Vince
 #
-
-_ = require 'underscore'
 
 module.exports = (robot) ->
     robot.hear /(deploy|update) myanmar staging/i, (msg) ->
