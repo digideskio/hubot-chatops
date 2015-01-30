@@ -8,5 +8,3 @@ paths:
 commands:
     - deploy|update myanmar staging - trigger deploy of the staging platform via devo.ps
     - reset|erase myanmar staging - trigger erase of the staging platform via devo.ps
-dependencies:
-    - underscore: '1.7.0'
